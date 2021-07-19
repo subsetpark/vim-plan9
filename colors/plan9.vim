@@ -26,10 +26,14 @@ hi Constant ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NON
 hi Directory ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Function ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Identifier ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Function ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
 hi PreProc ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Special ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Special ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
+hi Delimiter ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Macro ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi Title ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Type ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi String ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,italic gui=NONE,italic
 hi markdownH1 ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi markdownH1Delimiter ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi markdownH2 ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
@@ -76,6 +80,7 @@ hi! link SignColumn Normal
 hi! link VertSplit StatusLineNC
 hi! link vimAutoCmdSfxList Type
 hi! link vimIsCommand Statement
+hi! link JanetError Error
 finish
 
 " Background:      light
