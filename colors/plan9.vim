@@ -80,7 +80,6 @@ hi! link SignColumn Normal
 hi! link VertSplit StatusLineNC
 hi! link vimAutoCmdSfxList Type
 hi! link vimIsCommand Statement
-hi! link JanetError Error
 finish
 
 " Background:      light
