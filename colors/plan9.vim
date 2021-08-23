@@ -32,7 +32,7 @@ hi Special ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE
 hi Delimiter ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Macro ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi Title ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi Type ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi Type ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,underline gui=NONE,underline
 hi String ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,italic gui=NONE,italic
 hi markdownH1 ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi markdownH1Delimiter ctermfg=0 ctermbg=NONE guifg=#000000 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
