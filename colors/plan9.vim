@@ -75,6 +75,7 @@ hi! link Conceal Normal
 hi! link CursorColumn CursorLine
 hi! link ErrorMsg Error
 hi! link FoldColumn LineNr
+hi! link PiTourRange CursorLine
 hi! link Question Comment
 hi! link SignColumn Normal
 hi! link VertSplit StatusLineNC
@@ -151,6 +152,7 @@ finish
 " CursorColumn      -> CursorLine
 " ErrorMsg          -> Error
 " FoldColumn        -> LineNr
+" PiTourRange       -> CursorLine
 " Question          -> Comment
 " SignColumn        -> Normal
 " VertSplit         -> StatusLineNC

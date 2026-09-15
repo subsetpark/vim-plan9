@@ -107,6 +107,7 @@ Conceal           -> Normal
 CursorColumn      -> CursorLine
 ErrorMsg          -> Error
 FoldColumn        -> LineNr
+PiTourRange       -> CursorLine
 Question          -> Comment
 SignColumn        -> Normal
 VertSplit         -> StatusLineNC
